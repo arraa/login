@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #ffff;
+  background-image: linear-gradient(to bottom right, #7382b8, #e4e4e4);
+  min-height: 180rem;
+}
+
+/* NavBar-start */
+
+.navbar {
+  font-size: 23px;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.04);
+  /* padding: 18px 50px; */
+}
+
+.navbar .container-md .logout {
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 10px 20px;
+  background: none;
+  border: 2px solid white;
+  color: #ffff;
+}
+
+.navbar .container-md .logout:hover {
+  background: #ffff;
+  border: 2px solid white;
+  color: #334257;
+  transition: 0.9s;
+}
+
+.collapse .navbar-nav .nav-item {
+  padding: 0 40px;
+}
+/* nav-end */
+
+/* dashboard */
+.greetings {
+  margin: 8rem 12rem;
+}
+.greetings > h1 {
+  font-size: 50px;
+}
+.greetings > h2 {
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+.container {
+    /* display: flex;
+    justify-content: center; */
+  padding: 0;
+  margin: 0;
+}
+
+/* .leader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.card {
+  width: 70rem;
+  background-color: #f4f7ff;
+  color: #364680;
+  padding: 50px;
+  border-radius: 45px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.form-control{
+    border-radius: 10px;
+    height: 50px;
+    border-color: #DADFF1;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: #DADFF1;
+}
+.btn{
+    font-size: 20px;
+  border-radius: 50px;
+  padding: 10px 50px;
+  background: #7382b888;
+  border: 2px solid white;
+  color: #334257;
+  font-weight: bold;
+}
+
+.btn:hover{
+    background: white;
+    border: 2px solid #DADFF1;
+    color: #334257;
+    transition: 0.5s;
+}
+
